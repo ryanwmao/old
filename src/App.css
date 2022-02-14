@@ -28,6 +28,21 @@
   color: #61dafb;
 }
 
+.font-link {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.85vw;
+  color: antiquewhite;
+  align-self: center;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +50,62 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.Website {
+  background-color: #fc764d;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: "flex";
+  align-items: "center";
+  justify-content: "center";
+  overflow: hidden;
+}
+
+.Heart {
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 2%;
+  width: 50%;
+  position: absolute;
+}
+
+.heart2 {
+  position: sticky;
+  display: "flex";
+  align-items: "center";
+  justify-content: "center";
+  padding-bottom: 5%;
+}
+
+.item {
+  position: inherit;
+  border-radius: 5%;
+  height: 48px;
+  width: 64px;
+  align-items: center;
+  object-fit: cover;
+}
+
+#title {
+}
+
+#fill-window {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
 }
