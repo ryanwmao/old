@@ -1,5 +1,4 @@
 import Website from './components/Website';
-import React, { useState } from "react"
 import './App.css';
 
 function App() {
