@@ -42,7 +42,15 @@ export default class Grid extends Component {
         />
         <div className="heart2" isActive={this.state.active}>
           {this.state.active && (
-            <span className="font-link">
+            <span
+              className="font-link"
+              onClick={() =>
+                this.setState({
+                  level: 0,
+                  active: false,
+                })
+              }
+            >
               {" "}
               ~~ Ahjuma, Happy Valentine's Day! much love ~~{" "}
             </span>
